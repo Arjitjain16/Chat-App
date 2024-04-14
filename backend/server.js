@@ -5,6 +5,9 @@ import connectToMongoDb from "./db/ConnecttoMongoDb.js"
 
 const app = express()
 
+
+dotenv.config();
+
 const PORT = process.env.PORT || 5000
 
 
