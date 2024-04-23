@@ -1,11 +1,15 @@
 import React from 'react';
 import SearchInput from './SearchInput';
+import Conversation from './Conversation';
+import Logout from './Logout';
 
 function Sidebar() {
   return (
-    <div>
+    <div className='border-r border-slate-400 p-4 flex flex-col'>
       <SearchInput />
-      <div className='divider'></div>
+      <div className='divider p-4 border-b-1.2 border-slate-100'></div>
+      <Conversation />
+      <Logout />
     </div>
   );
 }
