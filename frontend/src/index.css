@@ -9,3 +9,10 @@ body {
 	background-size: cover;
 	background-position: center;
 }
+.messageinput{
+	background-color: white;
+}
+.messageinput input{
+	border: none;
+	outline: none;
+}
